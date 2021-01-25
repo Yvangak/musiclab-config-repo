@@ -1,1 +1,4 @@
-hello
+external:
+  services:
+    songs: musiclab-songs-service
+    version: 2021-01
