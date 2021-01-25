@@ -1,4 +1,4 @@
 external:
   services:
-    songs: musiclab-songs-service
+    songs: musiclab-songs
     version: 2021-01
