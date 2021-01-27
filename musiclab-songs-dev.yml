@@ -2,3 +2,7 @@ external:
   services:
     songs: musiclab-artists
     version: 2021-01
+last:
+  fm:
+    applicationId: 87c590a73b0c426e7b217d9700775ec9
+    url: http://ws.audioscrobbler.com/2.0/
