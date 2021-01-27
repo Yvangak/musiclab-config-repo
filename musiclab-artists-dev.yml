@@ -2,4 +2,3 @@ external:
   services:
     songs: musiclab-songs
     version: 2021-01
-    applicationId: 87c590a73b0c426e7b217d9700775ec9
