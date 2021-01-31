@@ -3,7 +3,7 @@ spring:
     hibernate:
       ddl-auto=create
   datasource:
-    url: jdbc:mysql:localhost:3306/artist_db
+    url: jdbc:mysql:localhost:3306/ARTISTSDB
     username: root
     password: password
 
