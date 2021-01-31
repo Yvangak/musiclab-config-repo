@@ -1,11 +1,17 @@
-spring:
+
+Spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ARTISTSDB?createDatabaseIfNotExist=true
+    username: root
+    password: password
+    platform: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: create
-  datasource:
-    url: jdbc:mysql:localhost:3306/ARTISTSDB
-    username: root
-    password: password
+    generate-ddl: true
+    show-sql: true
+
 
 external:
   services:
