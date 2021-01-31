@@ -5,7 +5,7 @@ Spring:
     username: root
     password: password
     platform: mysql
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: create
