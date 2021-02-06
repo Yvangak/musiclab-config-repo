@@ -1,7 +1,7 @@
 
 Spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/SONGSDB?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/songsdb
     username: postgres
     password: password
   jpa:
