@@ -1,7 +1,7 @@
 
 Spring:
   datasource:
-    url: jdbc:mysql://localhost:3307/SONGSDB?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3308/SONGSDB?createDatabaseIfNotExist=true
     username: root
     password: password
     platform: mysql
