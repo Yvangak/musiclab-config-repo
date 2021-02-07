@@ -1,0 +1,36 @@
+## FEIGN Configuration
+feign:
+  retry:
+    period: 2000
+    maxPeriod: 5000
+    maxAttempts: 2
+  client:
+    config:
+      default:
+        connectTimeout: 7000
+        readTimeout: 7000
+
+## CHAOS Configurations
+chaos:
+  monkey:  
+    enabled: false
+    watcher:
+      controller: true
+      repository: true
+      rest-controller: true
+      service: true
+    assaults:
+      level: 2
+      latencyRangeStart: 5000
+      latencyRangeEnd: 8000
+      latencyActive: true
+      exceptionsActive: true
+      killApplicationActive: true
+      
+ ## ACTUATOR configs
+ ## Actuator
+management:
+  endpoint:
+    chaosmonkey.enabled: true
+    chaosmonkeyjmx.enabled: true
+    metrics.enabled: true
