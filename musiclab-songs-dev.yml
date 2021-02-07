@@ -14,5 +14,5 @@ Spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 external:
   services:
-    songs: musiclab-artists
+    artists: musiclab-artists
     version: 2021-01
