@@ -13,7 +13,7 @@ feign:
 ## CHAOS Configurations
 chaos:
   monkey:  
-    enabled: false
+    enabled: true
     watcher:
       controller: true
       repository: true
