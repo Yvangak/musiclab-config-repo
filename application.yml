@@ -21,8 +21,8 @@ chaos:
       service: true
     assaults:
       level: 2
-      latencyRangeStart: 12
-      latencyRangeEnd: 200
+      latencyRangeStart: 5000
+      latencyRangeEnd: 10000
       latencyActive: true
       exceptionsActive: true
       killApplicationActive: true
