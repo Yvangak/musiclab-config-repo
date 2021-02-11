@@ -24,7 +24,7 @@ chaos:
       latencyRangeStart: 5000
       latencyRangeEnd: 10000
       latencyActive: true
-      exceptionsActive: false
+      exceptionsActive: true
       killApplicationActive: false
       
  ## ACTUATOR configs
